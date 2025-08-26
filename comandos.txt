@@ -1,0 +1,17 @@
+app.py
+
+requirements.txt
+
+templates/index.html
+
+templates/cardapio.html
+
+templates/pix.html
+
+templates/agendamento.html
+
+templates/admin.html
+
+templates/localizacao.html
+
+static/css/style.css

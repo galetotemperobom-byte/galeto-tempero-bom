@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Agendar Pedido</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <h2>📅 Agendamento de Pedido</h2>
+  <form method="POST">
+    <label>Nome:</label><br>
+    <input type="text" name="nome" required><br><br>
+
+    <label>Data:</label><br>
+    <input type="date" name="data" required><br><br>
+
+    <label>Horário:</label><br>
+    <input type="time" name="hora" required><br><br>
+
+    <label>Observações:</label><br>
+    <textarea name="obs"></textarea><br><br>
+
+    <button type="submit">Agendar</button>
+  </form>
+
+  <p>⚠️ Agendamentos só são aceitos com mínimo de 1h de antecedência.</p>
+  <p>Cancelamentos até 30 minutos antes. Pagamento via PIX obrigatório.</p>
+  <a href="/">Voltar</a>
+</body>
+</html>
